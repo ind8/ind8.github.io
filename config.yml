@@ -1,0 +1,652 @@
+baseurl: "https://pycon.id/"
+title: "PyCon Indonesia 2018"
+canonifyurls: true
+theme: "hugo-hello-programmer-theme"
+
+GoogleAnalytics: "UA-34348403-11"
+
+params:
+  # Conference info
+  Name: "PyCon Indonesia 2018"
+  Description: "PyCon Indonesia is a conference where Python users, or people interested in Python, gather to learn from each other and meet other members of the community. We hope that everyone joining PyCon ID will not only learn new and exciting things, but also meet new friends and strengthen the connection with the community, and thus the community itself. This year, we chose 'Python for Everyone' as our theme. The Pycon ID staff is continuing to work hard on making a conference that will allow everyone to have a great time and unlock new possibilities through Python."
+  Date: "November 3-4"
+  # Price: "" # If your event is free, just comment this line
+  Venue: "Kalbis Institute"
+  Address: "Jl. Pulomas Selatan kav.22, Jakarta Timur 13:10"
+  City:  "Jakarta"
+  State: "Indonesia"
+  Images: ["img/cover.jpg"]
+  # GoogleMapsKey: "my-secret-maps-key"
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - about
+    - cfp
+    # - location
+    # - speakers
+    # - schedule
+    # - code-of-conduct
+    - sponsors
+    - partners
+    - contact
+
+  # Titles which you can translate to other languages
+  Titles:
+    about: "About"
+    cfp: "Call for Paper"
+    location: "Location"
+    speakers: "Speakers"
+    schedule: "Schedule"
+    sponsors: "Sponsors"
+    partners: "Partners"
+    contact: "Contact"
+    call-for-paper: "Speak at Pycon ID"
+    blog: "Blog"
+    code-of-conduct: "Code of Conduct"
+    sponsors: "Sponsors"
+
+  # The Call To Action button at the header,
+  # If you don't want this, just remove the callToAction property.
+  CallToAction:
+    text: "Get your ticket!"
+    link: "https://tiket.pycon.id/"
+
+  # List of Sponsors
+  Sponsors:
+    Venue:
+      - name: "Kalbis Institute"
+        logo: "img/kalbis.png"
+        url: "http://kalbis.ac.id/"
+    Diamond:
+      - name: "Microsoft"
+        logo: "img/microsoft.png"
+        url: "https://www.microsoft.com/id-id"
+
+    Platinum:
+      - name: "Cloud Kilat"
+        logo: "img/cloudkilat.png"
+        url: "https://www.cloudkilat.com/"
+      - name: "Python Software Foundation"
+        logo: "img/psf.png"
+        url: "https://www.python.org/psf/"
+      - name: "Shopee"
+        logo: "img/shopee.png"
+        url: "https://shopee.co.id/"
+      - name: "Traveloka"
+        logo: "img/traveloka.png"
+        url: "https://www.traveloka.com/"
+    Gold:
+
+    Silver:
+      - name: "Jetbrains"
+        logo: "img/jetbrains.svg"
+        url: "https://www.jetbrains.com/"
+      - name: "Jublia"
+        logo: "img/jublia.png"
+        url: "https://jublia.com/"
+      - name: "Alpha Teknologi Indonesia"
+        logo: "img/ati.png"
+        url: "https://www.linkedin.com/company/alphateknologiindonesia/"
+      - name: "Taralite"
+        logo: "img/taralite.png"
+        url: "https://www.taralite.com/"
+      - name: "Xoxzo"
+        logo: "img/xoxzo.png"
+        url: "https://www.xoxzo.com/en/"
+
+    Ticket:
+      - name: "Valutac"
+        logo: "img/valutac-logo.png"
+        url: "https://valutac.com/"
+
+  # List of Partners
+  Partners:
+    - name: "Python Indonesia"
+      logo: "img/id-python-logo_400x400.png"
+      url: "https://python.or.id"
+    - name: "Perkodi"
+      logo: "img/perkodi.png"
+      url: "#"
+
+  # The entire schedule
+  Schedule:
+    first:
+      - name: "Open Registration"
+        time: "8:00"
+
+      - name: "Opening Speech"
+        time: "9:00"
+
+      - name: "Keynote 1"
+        time: "9:30"
+
+      - name: "Coffee Break 1"
+        time: "10:10"
+
+      - name: "Session 1"
+        time: "10:30"
+        track:
+          - name: "Ken Sasongko"
+            number: "1"
+            photo: ""
+            company: ""
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "High-Performance Tensorflow on Modern CPU Architecture"
+          - name: "Noah"
+            number: "2"
+            photo: ""
+            company: ""
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "PyCon in Asia"
+          - name: "Arief Anbiya"
+            company: ""
+            number: "3"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Twitter Data Visualization Models & Algorithm using Matplotlib"
+          - name: " R. AdySurya A."
+            company: ""
+            number: "4"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Image Generator On the Sky"
+
+      - name: "Session 2"
+        time: "11:10"
+        track:
+          - name: "Matthew Egan"
+            photo: ""
+            company: ""
+            number: "1"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Describing Descriptors"
+
+          - name: "Jason Wangsadinata"
+            photo: ""
+            company: ""
+            number: "2"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Demystifying GRPC: The Modern Toolkit for Building Microservices"
+
+          - name: "Ilham Imaddudin"
+            photo: ""
+            company: ""
+            number: "3"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Beyond Synchronous Python"
+          - name: "Agus Suparno"
+            photo: ""
+            company: ""
+            number: "4"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Microsoft Azure Machine Learning"
+        workshop:
+          - name: "Aaron Maxwell"
+            photo: ""
+            company: ""
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Decorators: Python’s Secret Weapon"
+
+      - name: "Session 3"
+        time: "11:50"
+        track:
+          - name: "Bernd Verst"
+            photo: ""
+            company: ""
+            number: "1"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Scaling your Flask development workflow - the container way"
+
+          - name: "Syarif Hidayatullah"
+            photo: ""
+            company: ""
+            number: "2"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Real Time Data Transformation using Apache Beam Python SDK"
+
+          - name: "Ali Akbar Septiandri"
+            photo: ""
+            company: ""
+            number: "3"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Predicting the Gender of Indonesian Names"
+
+      - name: "Lunch"
+        time: "12h25"
+
+      - name: "Session 4"
+        time: "13:30"
+        track:
+          - name: "Aussie Haryono"
+            photo: ""
+            company: ""
+            number: "1"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Automating insight discovery & delivery with Python"
+          - name: "Harley Davidson Karel"
+            photo: ""
+            company: ""
+            number: "2"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Scan Your Python Code"
+          - name: "Md Shahbaz Alam"
+            photo: ""
+            company: ""
+            number: "3"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Securing your Django and Flask APIs with JWT"
+
+      - name: "Session 5"
+        time: "14:10"
+        track:
+          - name: "Akira Nonaka"
+            photo: ""
+            company: ""
+            number: "1"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Introduction to the Django migration"
+          - name: "Welly Tambunan"
+            photo: ""
+            company: ""
+            number: "2"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Algorithmic Trading for Indonesian Stock Market with Python"
+          - name: "Henra Kusumah"
+            photo: ""
+            company: ""
+            number: "3"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Connect your things with Micropython"
+        workshop:
+          - name: "Tirtadwipa Manunggal"
+            photo: ""
+            company: ""
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Better Science Understanding with Sympy"
+
+      - name: "Session 6"
+        time: "14:50"
+        track:
+          - name: "Ramdhan Hidayat"
+            photo: ""
+            company: ""
+            number: "1"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Acceptance Test Driven Development using Robot Framework"
+          - name: "Doni Rubiagatra"
+            photo: ""
+            company: ""
+            number: "2"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Interactive Python Dashboards with Plotly and Dash"
+          - name: "Febby Oktaviani"
+            photo: ""
+            company: ""
+            number: "3"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Dive into The Magic of Django ORM"
+
+      - name: "Coffee Break"
+        time: "15h25"
+
+      - name: "Lightning Talk"
+        time: "15:50"
+        track:
+          - name: "Bayu Aldi Yansah"
+            photo: ""
+            company: ""
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Asynchronous Python at Kumparan"
+          - name: "Ngalim Siregar"
+            photo: ""
+            company: ""
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Python Dictionaries"
+
+      - name: "Closing"
+        time: "16:40"
+
+    second:
+      - name: "Open Registration"
+        time: "8:30"
+
+      - name: "Keynote 2"
+        time: "9:30"
+
+      - name: "Coffee Break 1"
+        time: "11:10"
+
+      - name: "Session 1"
+        time: "10:30"
+        track:
+          - name: "Edwin Candinegara"
+            number: "1"
+            photo: ""
+            company: ""
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Django + gevent @ Shopee"
+
+          - name: "Iwan Setiawan"
+            photo: ""
+            company: ""
+            number: "2"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Python-Defined Networking Using RouteFlow"
+
+          - name: "Aan Wahyu"
+            photo: ""
+            company: ""
+            number: "3"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Belati: Traditional Swiss Army Knife for OSINT"
+
+          - name: "Wildan Nur Karim"
+            photo: ""
+            company: ""
+            number: "4"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Make Your Own Object Detection with Tensorflow and OpenCV"
+
+      - name: "Session 2"
+        time: "11:10"
+        track:
+          - name: "Chinab Chugh and Heri Rusmanto"
+            photo: ""
+            company: ""
+            number: "1"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "From Zero to Hero for Managing your Servers"
+
+          - name: "Anthony Khong"
+            company: ""
+            number: "2"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "The Quest for Fast Python: PyPy, Numba, and Cython"
+
+          - name: "Trapsilo Bumi"
+            photo: ""
+            company: ""
+            number: "3"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Modern Tech meets Traditional Music: Enhancing Angklung Performances with Python"
+
+          - name: "Afif Iskandar"
+            photo: ""
+            company: ""
+            number: "4"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Strategi mengoptimalkan performa script Python"
+
+        workshop:
+          - name: "Zaki Ahmad"
+            photo: ""
+            company: ""
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Django Contribution 101"
+
+      - name: "Session 3"
+        time: "11:50"
+        track:
+          - name: "Tegar Imansyah"
+            photo: ""
+            company: ""
+            number: "1"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Understanding IoT Data Protocol"
+
+          - name: "Lisbeth & Aditya Iftikar Riaddy"
+            company: ""
+            number: "2"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Behind The Scenes of Our Recommendation AI"
+
+          - name: "Aditthya Ramakrishnan"
+            photo: ""
+            company: ""
+            number: "3"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Resurrecting the dead with deep learning"
+
+          - name: "Dwi Sulfahnur"
+            photo: ""
+            company: ""
+            number: "4"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Fantastic learning experience for the student with Python MOOC Platform"
+
+      - name: "Lunch"
+        time: "12h25"
+
+      - name: "Session 4"
+        time: "13:30"
+        track:
+          - name: "Younggun Kim"
+            photo: ""
+            company: ""
+            number: "1"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "“Ready, Get set, Go” all about the development sprints"
+
+          - name: "Bhagvan Kommandi"
+            company: ""
+            number: "2"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Adaptive Learning : Next Generation Platform"
+
+          - name: "Citra Hasana Sagala"
+            photo: ""
+            company: ""
+            number: "3"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Predicting Potential Water Resource Area with Python"
+
+          - name: "N. Aliyah Salsabila"
+            photo: ""
+            company: ""
+            number: "4"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Normalisasi Kosakata Slang pada Komentar Instagram dengan pendekatan Neural Machine Translation menggunakan seq2seq Keras"
+
+      - name: "Session 5"
+        time: "14:10"
+        track:
+          - name: "Agustinus Dony Riyanto"
+            photo: ""
+            company: ""
+            number: "1"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Enhancing Drone Application Development using Python and dronekit"
+
+          - name: "Ilya Alexander S."
+            company: ""
+            number: "2"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Python For All - From install, to everyday task, to.. *anything*"
+
+          - name: "Bayu Aldi Yansyah"
+            photo: ""
+            company: ""
+            number: "3"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "PyTorch for Deep Learning Practitioners"
+
+        workshop:
+          - name: "Octaviano Pratama"
+            photo: ""
+            company: ""
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Music Classification using Deep Learning based on Python"
+
+      - name: "Session 6"
+        time: "14:50"
+        track:
+          - name: "Nino Eclarin"
+            photo: ""
+            company: ""
+            number: "1"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "Divide and Divide: Refactoring Code in Python"
+          - name: ""
+            photo: ""
+            company: ""
+            number: "3"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "PyLadies Session"
+          - name: "Python Indonesia"
+            photo: ""
+            company: ""
+            number: "4"
+            link:
+              href: ""
+              text: ""
+            presentation:
+              title: "L10n Sprint"
+
+      - name: "Coffee Break 2"
+        time: "15h25"
+
+      - name: "Lightning Talk"
+        time: "15h45"
+
+      - name: "Closing Remarks"
+        time: "16h45"
