@@ -1,7 +1,7 @@
 baseurl: "https://pycon.id/"
 title: "PyCon Indonesia 2018"
 canonifyurls: true
-theme: "hugo-conference"
+theme: "hugo-hello-programmer-theme"
 
 GoogleAnalytics: "UA-34348403-11"
 
