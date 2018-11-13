@@ -1,0 +1,14 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "hugo-hello-programmer-theme"
+
+paginate = 2
+
+disqusShortname = "XXXX"
+googleAnalytics = "UA-XXXXXXXX-X"
+
+[author]
+    name = "your-name"
+    email = "your-email"
+
