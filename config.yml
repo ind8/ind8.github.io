@@ -1,4 +1,4 @@
-baseurl: "https://pycon.id/"
+baseurl: "https://ind8.github.io/"
 title: "PyCon Indonesia 2018"
 canonifyurls: true
 theme: "hugo-hello-programmer-theme"
